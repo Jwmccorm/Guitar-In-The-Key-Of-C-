@@ -211,6 +211,8 @@ void playNotes(GUITARPTR guitarRef){
             string closeRef = "close mp";
             closeRef += i + '0';
             mciSendString(&closeRef[0], NULL, 0, NULL);
+            cout <<"test";
+            Sleep(300);
         }
     }
 
@@ -233,7 +235,7 @@ void playNotes(GUITARPTR guitarRef){
     mciSendString("play mp3", NULL, 0, NULL);
     mciSendString("play mp4", NULL, 0, NULL);
     mciSendString("play mp5", NULL, 0, NULL);
-
+    cout <<"test";
     Sleep(300);
 
 

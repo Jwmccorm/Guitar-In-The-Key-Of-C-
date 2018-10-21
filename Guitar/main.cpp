@@ -17,7 +17,6 @@ int main(){
         cout << openingImport[i] << endl;
     }
 
-
     GUITARPTR newFender = createGuitar();
     addNotes(newFender, openingImport, FS);
     //printGuitar(newFender);
