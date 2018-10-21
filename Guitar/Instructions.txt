@@ -1,0 +1,1 @@
+Compile settings -> add libray -> winmm
